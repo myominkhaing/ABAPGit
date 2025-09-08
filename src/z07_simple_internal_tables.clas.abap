@@ -5,7 +5,7 @@ CLASS z07_simple_internal_tables DEFINITION
 
   PUBLIC SECTION.
   INTERFACES if_oo_adt_classrun.
-  CONSTANTS max_count TYPE i VALUE 5.
+  CONSTANTS max_count TYPE i VALUE 6.
 
   PROTECTED SECTION.
   PRIVATE SECTION.
