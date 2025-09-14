@@ -21,7 +21,7 @@ METHOD if_oo_adt_classrun~main.
     TRY.
         connection->set_attributes(
           EXPORTING
-            i_carrier_id    = 'LH'
+*            i_carrier_id    = 'LH' " Using Default Value for demonstration
             i_connection_id = '0400'
         ).
 
