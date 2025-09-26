@@ -7,6 +7,7 @@ CLASS lcl_connection DEFINITION.
   i_carrier_id type /dmo/carrier_id DEFAULT 'LH'
   i_connection_id type /dmo/connection_id
   RAISING cx_abap_invalid_value.
+
    METHODS get_output "Get Method
       RETURNING VALUE(r_output) TYPE string_table.
   PRIVATE SECTION.
