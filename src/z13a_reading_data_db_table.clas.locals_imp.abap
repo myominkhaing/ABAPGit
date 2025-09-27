@@ -41,7 +41,7 @@ method constructor.
 
       IF sy-subrc <> 0.
       RAISE EXCEPTION TYPE cx_abap_invalid_value.
-   ENDIF.
+      ENDIF.
 
 
 ENDMETHOD.
